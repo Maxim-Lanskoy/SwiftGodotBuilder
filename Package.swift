@@ -13,7 +13,7 @@ let package = Package(
         .executable(name: "swiftgodotbuilder", targets: ["SwiftGodotBuilderCLI"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/swiftlang/swift-syntax", from: "600.0.0"),
+        .package(url: "https://github.com/swiftlang/swift-syntax", from: "600.0.1"),
         .package(url: "https://github.com/migueldeicaza/SwiftGodot", branch: "main"),
     ],
     targets: [

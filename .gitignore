@@ -3,6 +3,7 @@
 /Packages
 xcuserdata/
 DerivedData/
+Demo/.build
 .swiftpm/
 .netrc
 **.xcodeproj

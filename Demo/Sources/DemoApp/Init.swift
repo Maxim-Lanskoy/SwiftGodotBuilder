@@ -14,6 +14,5 @@ import SwiftGodotBuilder
     PlatformerGame.self,
     SVGTest.self,
     StressTest.self,
-    SelectionTest.self,
   ] + BuilderRegistry.types
 )

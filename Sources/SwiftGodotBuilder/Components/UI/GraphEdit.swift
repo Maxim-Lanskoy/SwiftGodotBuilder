@@ -128,8 +128,8 @@ public extension GNode where T == GraphNode {
     /// Connects to the `position_offset_changed` signal.
     func onPositionOffsetChanged(_ handler: @escaping (Vector2) -> Void) -> Self {
         configure { node in
-            node.positionOffsetChanged.connect { offset in
-                handler(offset)
+            node.positionOffsetChanged.connect {
+                handler(node.positionOffset)
             }
         }
     }
@@ -295,3 +295,4 @@ public extension GNode where T == GraphEdit {
         }
     }
 }
+

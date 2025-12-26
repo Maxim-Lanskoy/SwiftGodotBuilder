@@ -46,7 +46,7 @@ Add SwiftGodotBuilder to your `Package.swift`:
 
 ```swift
 dependencies: [
-  .package(url: "https://github.com/johnsusek/SwiftGodotBuilder", branch: "main")
+  .package(url: "https://github.com/Maxim-Lanskoy/SwiftGodotBuilder", branch: "tweaks")
 ],
 targets: [
   .target(name: "YourTarget", dependencies: ["SwiftGodotBuilder"])

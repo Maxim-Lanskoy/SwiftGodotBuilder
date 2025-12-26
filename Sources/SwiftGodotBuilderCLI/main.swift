@@ -350,7 +350,7 @@ private enum BuilderDependency {
     case let .local(url):
       return #".package(name: "SwiftGodotBuilder", path: "\#(url.path)")"#
     case .remote:
-      return #".package(url: "https://github.com/johnsusek/SwiftGodotBuilder", branch: "main")"#
+      return #".package(url: "https://github.com/Maxim-Lanskoy/SwiftGodotBuilder", branch: "tweaks")"#
     }
   }
 
